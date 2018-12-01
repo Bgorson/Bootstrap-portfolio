@@ -1,12 +1,14 @@
 ul, .container, footer {
   font-family: Arial, Helvetica, sans-serif;
 }
-h2, h1, #name, #title {
+h2, h1{
         font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
 body {
     background: url(../images/background.png);
+    box-sizing:border-box;
     }
 .innerheader {
   padding-top:1em;
@@ -28,4 +30,7 @@ body {
   content: ' ';
   display: block;
   height: 70%;
+}
+footer {
+  border-top: solid 5px #4AAAA5;
 }
