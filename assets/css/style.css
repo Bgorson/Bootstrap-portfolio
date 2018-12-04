@@ -33,4 +33,11 @@ body {
 }
 footer {
   border-top: solid 5px #4AAAA5;
+  animation-name: footercolor;
+  animation-duration: 3s;
+}
+
+@keyframes footercolor {
+  from {background-color: white;}
+  to {background-color: #343a40;}
 }
