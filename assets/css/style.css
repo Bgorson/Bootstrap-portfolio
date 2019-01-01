@@ -15,6 +15,11 @@ body {
 }
 .img-wrapper {
   position: relative;
+
+}
+.img-fluid{
+  max-width:200px;
+  max-height:200px;
 }
 
 .img-overlay {
@@ -37,7 +42,7 @@ footer {
   animation-duration: 3s;
 }
 
-@keyframes footercolor {
+/* @keyframes footercolor {
   from {background-color: white;}
   to {background-color: #343a40;}
-}
+} */
