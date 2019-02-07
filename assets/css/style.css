@@ -41,8 +41,7 @@ footer {
   animation-name: footercolor;
   animation-duration: 3s;
 }
-
-/* @keyframes footercolor {
-  from {background-color: white;}
-  to {background-color: #343a40;}
-} */
+#aboutMe{
+  min-height:50vh;;
+  width:960px;
+}
